@@ -1,0 +1,15 @@
+Source: keychain-starter
+Section: utils
+Priority: optional
+Maintainer: Daniel Dalgo <dalguete@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: http://dalguete.com
+Vcs-Browser: https://github.com/dalguete/keychain-starter.git
+
+Package: keychain-starter
+Architecture: any
+Depends: keychain
+Description: Enable keychain per user login
+ Basically that's all. Sets some profile config files, so keychain can start as soon
+ as the user login process finishes.
