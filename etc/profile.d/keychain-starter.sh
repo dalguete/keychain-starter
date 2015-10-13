@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Purpose: Enable keychain and with that ssh-agent on user login
 #
@@ -14,5 +14,5 @@
 ### i.e. Only allow cron jobs to use password less login 
 #####################################################################################
 keychain --clear
-source $HOME/.keychain/$HOSTNAME-sh
+. $HOME/.keychain/$HOSTNAME-sh
 
