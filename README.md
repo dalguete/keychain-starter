@@ -1,4 +1,4 @@
-# keychain-starter
+# keychain-starter (DEPRECATED)
 
 Enable keychain per user login.
 
